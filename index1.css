@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+a{
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    background-image: url("carbon.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    position:scroll;
+   
+}
+.icon{
+    width: 100px;
+    height: 70px;
+    float: left;
+    
+}
+.logo{
+    color:#ffa500;
+    padding:0px 30px;
+    top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.list{
+    width: 200px;
+    height: 70px;
+    float: left;
+ 
+    
+    
+  
+} 
+.list ul {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    /* margin-right:20px; */
+    padding: 8px 80px;
+    
+    
+}
+ .list ul li{
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.list ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 5px;
+
+    
+    
+} 
+.list ul li a:hover{color: orange;
+    border-bottom: 2px solid black;
+
+} 
+
+ .search{
+    float: right;
+    padding-top: 16px ;
+    width: 250px;
+    height: 70;    
+
+} 
+.sear{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid orange;
+    width: 120px;
+    padding: 5px 10px;
+    float: left;
+}
+button{
+    border: 1px solid orange;
+    padding: 5px 10px;
+    background-color: orange;
+    width: 90px;
+   
+}
+button a{
+    color: #fff;
+    
+}
+.main{
+    width: 100%;
+    margin-left: 20px;
+    float: left;
+  
+    
+}
+.text{
+    /* width: 100%; */
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    color: #fff;
+    margin-top: 80px;
+    position: relative;
+  
+   
+}
+.text h2{
+    text-transform: capitalize;
+   font-size: 25px;
+   line-height: 1.5;
+}
+.text span{
+    color: orange;
+    font-size: 30px;
+}
+.text p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.now{
+    background-color: orange;
+    width: 140px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    padding: 10px;  
+
+}
+
+.now a{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+ 
+ 
+}
+.form{
+    width: 300px;
+    height: 380px;
+  background-color: black;
+    position: absolute;
+    top:120px;
+    left: 70%;
+    border: 1px solid black;
+    border-radius: 15px;
+   
+}
+.form h2{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    text-transform: capitalize;
+      /* padding-top: 10px; padding-bottom: 10px;
+  */
+    color: orange;
+    font-size: 22px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 8px;
+  
+   
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.new{
+    width: 240px;
+    height: 40px;
+    /* margin: 20px auto; */
+    /* border: 1px solid orange; */
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: orange;
+    padding:10px;
+    text-align: center;
+  
+
+   
+
+}
+.new a{
+    color: #fff;
+}
+.new:hover{
+    background-color: orangered;
+    color:#ff7200;
+    
+}
+.link{
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    text-align: center;
+    padding-top: 20px;
+
+    
+}
+.sign{
+
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    bottom: 5px;
+    left: 90px;
+    color: #ff7200;
+    /* border-bottom: 1px solid orangered; */
+    
+}
+.sign span{
+    color: #fff;
+}
+.liw{
+    color: #fff;
+    padding-left: 98px;
+    position: relative;
+    top:10px;
+    text-transform: capitalize;
+}
+.icon{
+ width: 300px;
+ height: 40px;
+ color: #fff;
+ border: 1px solid green;
+ padding: 15px;
+ font-size: 25px;
+ padding-left: 25x;
+ /* margin-top: 10px; */
+ border: none;
+}
+.icon a{
+    padding-left: 15px;
+}
+.icon a i{
+    color: #fff;
+}
